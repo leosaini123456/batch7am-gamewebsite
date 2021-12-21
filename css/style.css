@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    padding:0px;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navigation style  */
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #131313;
+    padding:0px 100px;
+    line-height: 80px;
+    border-bottom : 2px solid #FFB320;
+}
+nav h2
+{
+    color:white;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 80px;
+}
+nav ul li
+{
+    display: inline-block;
+    margin: 0px 20px;
+}
+nav ul li a
+{
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav ul li a:hover
+{
+    color:#FFB320;
+}
+.mybtn
+{
+    padding:10px 30px;
+    background-color: #FFB320;
+    color:black;
+    display: inline-block; 
+    border-radius: 25px;
+    text-decoration: none;
+
+}
+.mybtn:hover
+{
+    background-color: transparent;
+    color: #FFB320;
+    font-weight: 500;
+    border:2px solid #FFB320;
+}
+nav .icon
+{
+    color:white;
+    font-size: 20px;;
+}
+#checkbtn
+{
+    display: none;
+}
+.icon
+{
+    display: none;
+}
+
+
+/* section2 started */
+#section2
+{
+    background-image: url("../img/slider-1.jpg");
+    height: calc(100vh - 80px);
+}
+#section2 h2
+{
+    color:white;
+    font-size: 50px;
+}
+#section2 p
+{
+    color:white;
+    line-height: 30px;
+    width: 600px;
+}
+.outercontent
+{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 80px);
+}
+
+.yellowtext
+{
+    color:#FFB320;
+}
+#section3{
+    height: 80px;
+}
+
+#section3 .col-lg-4
+{
+    background-color: #FFB320;
+    color:white;
+    text-align: right;
+}
+#section3 .col-lg-8
+{
+    background-color: black;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and  (max-width : 420px)
+{
+    nav
+    {
+        padding:0px 20px;
+        font-size: 20px;
+    }
+    nav ul
+    {
+        position: absolute;
+        top:80px;
+        background-color: #FFB320;
+        height: 100vh;
+        width: 50%;
+        left:-100%;
+        transition: all 2s;
+    }
+    nav ul li
+    {
+        display: block;
+        text-align: center;
+    }
+    nav ul li a
+    {
+        color:black;
+        font-weight: 500;
+    }
+    .icon
+    {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+    #checkbtn:checked ~ ul
+    {
+        left:0px;
+    }
+}
+
