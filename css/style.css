@@ -100,26 +100,94 @@ nav .icon
 {
     color:#FFB320;
 }
-#section3{
-    height: 80px;
-}
+
 
 #section3 .col-lg-4
 {
     background-color: #FFB320;
     color:white;
     text-align: right;
+    height: 60px;
+    padding-top:15px;
 }
 #section3 .col-lg-8
 {
     background-color: black;
     color:white;
 }
+#section3 marquee
+{
+    padding-top:15px;
+}
+#section3 marquee span
+{
+    padding:7px 20px;
+    margin:0px 20px;
+}
 
+#section4 .box
+{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay
+{
+    background-color: #1313137e;
+}
+#section4 .overlay{
+    height: 400px;
+    padding: 20px;
+}
+#section4 .content
+{
+    position: absolute;
+    bottom: 20px;
+}
 
+#section4 .content h3
+{
+    color:white;
+    font-size: 20px;
+}
+#section4 .content p
+{
+    color:rgba(255, 255, 255, 0.712);
+    font-size: 14px;
+}
+#section4 span
+{
+    color:white;
+    padding:7px 20px;
+}
+#section4
+{
+    padding:100px 0px;
+}
 
+#section6
+{
+    background-image: url("../img/section6bg.png");
+    padding:100px 0px;
+}
 
-
+#section6 p
+{
+    color:white;
+    font-size: 14px;
+}
+#section6 span
+{
+    color:rgba(180, 180, 180, 0.733);
+}
+.section6box
+{
+    background-color: #252525;
+    margin:0px 10px;
+    padding:20px;
+}
 
 
 
