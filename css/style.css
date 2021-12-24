@@ -166,6 +166,50 @@ nav .icon
 {
     padding:100px 0px;
 }
+#section5
+{
+    background-image: url("../img/section5bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:200px 0px;
+    background-color: #EEF2F6;
+}
+
+
+#section5 .box
+{
+    background-color: white;
+    border:2px solid rgb(221, 221, 221);
+    width: 80%;
+    position: relative;
+}
+#section5 .box h3
+{
+    font-size: 20px;
+    padding:10px 10px;
+}
+#section5 .box p
+{
+    font-size: 14px;
+    color:rgba(161, 160, 160, 0.918);
+    padding:0px 10px 20px 10px;
+}
+#section5 span
+{
+    color:white;
+    padding:5px 10px;
+    position: absolute;
+    top:20px;
+    left:20px;
+}
+.star
+{
+    background-color: #FFB320;
+}
+.icon
+{
+    background-color: red;
+}
 
 #section6
 {
@@ -188,6 +232,7 @@ nav .icon
     margin:0px 10px;
     padding:20px;
 }
+
 
 
 
@@ -232,5 +277,11 @@ nav .icon
     {
         left:0px;
     }
+}
+
+.circle
+{
+    background-color: #FFB320;
+    padding:20px;
 }
 
